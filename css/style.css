@@ -28,6 +28,7 @@
     width: 200px;
     padding: 10px 10px;
     border-right: 1px solid #ccc;
+    border-radius: 0;
 }
 
 ul{
@@ -42,6 +43,10 @@ li{
 a{
     text-decoration: none;
     color: #ccc;
+}
+
+p{
+    color: lightgrey;
 }
 
 main{
@@ -62,23 +67,28 @@ main{
     color: snow
 }
 
+.testo{
+    color: #fff;
+}
+
 img{
     width: 100%;
     border-radius: 20px;
 }
 
-.img{
-    background-color: grey;
+.row-2{
+    width: 100%;
+    height: 300px;   
 }
 
 .img-center{
+    width: 100%;
     height: 240px;
 }
 
-/* problema con lo stretch dell'immagine */
 .img-right{
-    height: 240px;
-  background-size: contain;
+    width: 100%;
+    height: 240px;   
 }
 
 .below{
@@ -93,7 +103,7 @@ img{
 }
 
 .lightblue{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 20px;
     float: left;
 }
@@ -108,7 +118,6 @@ img{
     width:240px;
     height: 480px;
     margin-right: 0;
-   text-align: center;
 }
 
 .big{
@@ -122,5 +131,10 @@ footer{
     width: 100%;
     height: 80px;
     margin-top: 20px;
+    text-align: center;
+}
+
+span{
+   color: red;
 }
 
