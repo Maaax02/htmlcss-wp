@@ -26,7 +26,7 @@
 
 .logo{
     width: 200px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     border-right: 1px solid #ccc;
     border-radius: 0;
 }
@@ -84,16 +84,31 @@ img{
 .img-center{
     width: 100%;
     height: 240px;
+    background: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .img-right{
     width: 100%;
-    height: 240px;   
+    height: 240px; 
+    background: url("../img/img-3.jpg");
+    background-size: cover;
+    background-position: center;  
+}
+
+.img-left{
+    background-image: url(../img/img-1.jpg);
+    height: 240px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
 }
 
 .below{
     width: 100%;
     margin-top: 20px;
+    position: relative;
 }
 
 .below::after{
@@ -118,6 +133,25 @@ img{
     width:240px;
     height: 480px;
     margin-right: 0;
+    
+}
+
+.lightgrey{
+    width: 100%;
+    height: 100%;
+    background:rgba(30, 30, 30, 30%) ;
+    border-radius: 20px;
+    z-index: 4;
+    position: absolute;
+}
+
+.lightgrey-2{
+    width: 100%;
+    height: 240px;
+    background: rgba(30, 30, 30, 30%);
+    z-index: 2;
+    position: relative; 
+    border-radius: 20px; 
 }
 
 .big{
@@ -136,5 +170,6 @@ footer{
 
 span{
    color: red;
+   font-size: 30px;
 }
 
